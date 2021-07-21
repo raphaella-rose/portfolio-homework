@@ -91,3 +91,38 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+@media (max-width: 376px) {
+  body {
+    margin-top: 80px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .navigation-links {
+    margin-top: 10px;
+    margin-bottom: 12px;
+  }
+
+  .navigation-links a {
+    margin: 5px;
+    border-radius: 4px;
+    font-size: 10px;
+    padding: 5px 7px;
+  }
+  .add-spacing {
+    margin-top: 15px;
+  }
+  .email-link {
+    font-size: 15px;
+  }
+}
